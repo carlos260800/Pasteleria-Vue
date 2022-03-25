@@ -1,0 +1,198 @@
+:root{
+    --primario:#92dce5;
+    --secundario:#f7ec59;
+    --rosa:#ff66d8;
+    --gris:#828282 ;
+    --blanco:#fff;
+    --negro:#000;
+    --azul:#3e5f8a;
+    --fuentePrincipal: 'Poppins', sans-serif;;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    /* background-color: var(--primario); */
+    background: rgb(10,151,230); 
+    background: linear-gradient(90deg, rgba(10,151,230,1) 0%, rgba(41,114,222,1) 70%, rgba(41,114,222,1) 100%);
+}
+
+a{
+    text-decoration: none;
+    transition: color 0.03s linear 0.01s;
+} 
+
+a:hover {
+    text-decoration: none;
+    color: var(--azul);
+}
+
+p{
+    font-size:1.5rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__logo {
+    margin: 3rem 0;
+    border-radius: 10%;
+}
+
+
+.navbar{
+    font-family: var(--fuentePrincipal);
+    background-color:var(--secundario);
+    padding: 1.5rem;
+    font-size:2rem;
+    margin-right:1rem;
+    margin-left: 1rem;
+    justify-content:center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--negro);
+    gap: 10rem;
+}
+
+.navbar_links{
+    color: var(--negro);
+}
+
+.navbar_links:hover{
+    color: var(--azul);
+    text-decoration: none;
+}
+
+.titulo,h1{
+    font-family: var(--fuentePrincipal);
+    font-size:5rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5rem;
+    row-gap: 5rem;
+}
+
+.pastel {
+    border-radius: 3%;
+    background-color: var(--blanco);
+    padding: 1rem;
+    margin:auto;
+	display:block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+.pastel-foto {
+    width: 100%;
+    border-radius: 3%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--negro);
+}
+
+.centrar-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-pastel{
+    font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    color: var(--negro);
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+
+.footer{
+    background-color:var(--secundario);
+    padding: 1rem 0;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.derechos{
+    text-align: center;
+    margin:2rem 8rem ;
+}
+
+.footer_logo{
+    height:120px;
+    margin: 1rem 8rem;
+    border-radius: 10%;
+}
+
+.entrada{
+    border-radius: 10%;
+    width:100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boton{
+    background-color: black;
+    border-radius: 15%;
+    font-size: 2rem;
+    height: 5.5rem;
+    width: 9rem;
+}
+
+.dividirPantalla{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+}
+
+.mapa{
+    border-radius: 5%;
+}
+
+.direccion{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.nosotros{
+    text-align: center;
+}
+
+.extras{
+    display: flex;
+    position:left;
+    gap: 2rem;
+    font-size: 2rem;
+    padding: 2rem 2rem;
+}
+
+.pedidos{
+    background-color: var(--blanco);
+    padding: 2rem 2rem;
+    border-radius: 5%;
+}
