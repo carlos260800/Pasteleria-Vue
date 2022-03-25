@@ -84,6 +84,7 @@ p{
     .header__logo{
         margin-left: 1.5rem;
         max-width: 15rem;
+        display:flex;
     }
 }
 
@@ -212,6 +213,16 @@ p{
     width: 100%;
 }
 
+@media (max-width: 575px) {
+    .footer{
+        background-color:var(--secundario);
+        padding: 0.5rem 0;
+        margin-top: 8rem;
+        width: 100%;
+        display: block;
+    }
+}
+
 .derechos{
     text-align: center;
     margin:2rem 8rem ;
@@ -227,6 +238,9 @@ p{
     .footer_logo{
         height:60px;
         margin: 0.5rem 4rem;
+        margin:auto;
+        margin-top: 2rem;
+	    display:block;
     }
     
 }
@@ -238,18 +252,18 @@ p{
     font-size: 2rem;
 }
 
+@media (max-width: 575px) {
+    .entrada{
+        font-size: 1.8rem;
+    }    
+}
+
 .boton{
     background-color: black;
     border-radius: 15%;
     font-size: 2rem;
     height: 5.5rem;
     width: 9rem;
-}
-
-@media (max-width: 575px) {
-    .boton{
-        margin-left:10rem;
-    }    
 }
 
 .dividirPantalla{

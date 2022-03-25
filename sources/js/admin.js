@@ -27,8 +27,6 @@ new Vue({
                         <li>Pequeña Figura</li>
                     </ul>
                 </div>
-                
-
             </div>
             
             <div class="pedidos">
