@@ -57,10 +57,16 @@ p{
     max-width: 120rem;
     margin: 0 auto;
 }
+
 @media (max-width: 575px) {
     .contenedor {
         max-width: 40rem;
     }
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -271,7 +277,8 @@ p{
     .mapa{
         border-radius: 5%;
         width: 25rem;
-        margin-left:2.5rem;
+        display: flex;
+        justify-content: center;
     }
     
     .direccion{

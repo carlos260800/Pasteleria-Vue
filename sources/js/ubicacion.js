@@ -10,7 +10,7 @@ new Vue({
             <h4>10:00 AM a 20:00 PM</h4>
         </div>
 
-        <div>
+        <div class="centrar">
             <img class="mapa" src="../img/mapa.jpg" alt="Ubicacion">
         </div>
     </div>
