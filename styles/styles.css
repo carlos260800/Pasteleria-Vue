@@ -34,9 +34,33 @@ p{
     font-size:1.5rem;
 }
 
+@media (max-width: 575px) {
+    a{
+        font-size: 1.7rem;
+    }
+    h1{
+        font-size: 10px;
+    }
+    h2{
+        font-size:2rem
+    }
+    h3{
+        font-size:1.8rem
+    }
+    span {
+        font-size:1.5rem
+    }
+    
+}
+
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
+}
+@media (max-width: 575px) {
+    .contenedor {
+        max-width: 40rem;
+    }
 }
 
 .header {
@@ -50,6 +74,12 @@ p{
     border-radius: 10%;
 }
 
+@media (max-width: 575px) {
+    .header__logo{
+        margin-left: 1.5rem;
+        max-width: 15rem;
+    }
+}
 
 .navbar{
     font-family: var(--fuentePrincipal);
@@ -63,6 +93,18 @@ p{
     border-style: solid;
     border-color: var(--negro);
     gap: 10rem;
+}
+
+
+@media (max-width: 575px) {
+    .navbar{
+        padding: 0.8rem;
+        font-size:1rem;
+        margin-right:0.5rem;
+        margin-left: 0.5rem;
+        border-width: 1px;
+        gap: 2rem;
+    }
 }
 
 .navbar_links{
@@ -89,6 +131,14 @@ p{
     row-gap: 5rem;
 }
 
+@media (max-width: 575px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        align-items: center;
+    }    
+}
+
 .pastel {
     border-radius: 3%;
     background-color: var(--blanco);
@@ -108,6 +158,22 @@ p{
     border-color: var(--negro);
 }
 
+@media (max-width: 575px) {
+    .pastel {
+        border-radius: 3%;
+        background-color: var(--blanco);
+        padding: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }    
+
+    .pastel-foto {
+        width: 16rem;
+        border-radius: 3%;
+        border-width: 1px;
+    }
+}
+
 .centrar-foto{
     display: flex;
     justify-content: center;
@@ -123,6 +189,11 @@ p{
     font-size: 3rem;
 }
 
+@media (max-width: 575px) {
+    .nombre-pastel{
+        font-size: 2rem;
+    }
+}
 
 .footer{
     background-color:var(--secundario);
@@ -146,6 +217,14 @@ p{
     border-radius: 10%;
 }
 
+@media (max-width: 575px) {
+    .footer_logo{
+        height:60px;
+        margin: 0.5rem 4rem;
+    }
+    
+}
+
 .entrada{
     border-radius: 10%;
     width:100%;
@@ -161,9 +240,21 @@ p{
     width: 9rem;
 }
 
+@media (max-width: 575px) {
+    .boton{
+        margin-left:10rem;
+    }    
+}
+
 .dividirPantalla{
     display: grid;
     grid-template-columns: repeat(auto-fill, 50%);
+}
+
+@media (max-width: 575px) {
+    .dividirPantalla{
+        display: inline;
+    }
 }
 
 .mapa{
@@ -173,6 +264,20 @@ p{
 .direccion{
     text-align: center;
     padding-top: 8rem;
+}
+
+@media (max-width: 575px) {
+
+    .mapa{
+        border-radius: 5%;
+        width: 25rem;
+        margin-left:2.5rem;
+    }
+    
+    .direccion{
+        text-align: center;
+        padding-top: 5rem;
+    }
 }
 
 .contacto{
