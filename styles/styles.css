@@ -322,3 +322,16 @@ p{
     padding: 2rem 2rem;
     border-radius: 5%;
 }
+
+.listas{
+    display:flex;
+    gap: 15rem;
+}
+
+.botonGrande{
+    border-radius: 15%;
+    background-color: var(--secundario);
+    font-size: 3rem;
+    height: 10rem;
+    width: 15rem;
+}
